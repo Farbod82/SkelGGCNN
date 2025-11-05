@@ -13,3 +13,9 @@ This repository provides the full pipeline described in the paper. It includes:
 - Python Implementation of skeleton-based grasp keypoint annotation algorithm
 - The complete code for training and evaluation
 
+## 🎥 Video Demonstration
+<p align="center">
+  <a href="https://drive.google.com/file/d/1-q1wj7IziJbT6VadjjPrXaOGC217hLpv/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/Watch%20Video-blue?logo=youtube&style=for-the-badge" alt="Watch Video">
+  </a>
+</p>
