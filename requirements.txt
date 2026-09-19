@@ -1,0 +1,33 @@
+numpy==1.26.4
+torch==2.2.2+cu121
+
+scipy==1.13.1
+scikit-learn==1.6.1
+scikit-image==0.24.0
+networkx==3.2.1
+sympy==1.14.0
+shapely==2.0.7
+alphashape==1.3.1
+robust-laplacian==1.1.0
+trimesh==4.12.2
+transforms3d==0.4.2
+autolab-core==1.1.1
+pybind11==3.1.0
+opencv-python==4.11.0.86
+opencv-python-headless==4.11.0.86
+albumentations==2.0.8
+open3d==0.19.0
+matplotlib==3.9.4
+pillow==11.3.0
+imageio==2.37.2
+pandas==2.3.3
+tqdm==4.70.0
+ipython==8.18.1
+
+coppeliasim-zmqremoteapi-client==2.0.4
+pyzmq==27.2.0
+cbor==1.0.0
+
+# scikit-geometry provides the imported `skgeom` module but is not available
+# from PyPI on Windows. Install it into the Conda environment with:
+# conda install -c conda-forge scikit-geometry=0.1.2 "numpy=1.26.4"
