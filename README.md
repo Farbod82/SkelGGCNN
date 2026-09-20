@@ -326,6 +326,19 @@ python -m training.visualize --dataset dexnet --modality depth --target skeleton
 retain every local maximum above it. Use `--random-samples N` to visualize a
 random subset and `--seed` for repeatable selection.
 
+### Prediction example
+
+The following outputs are from the first airplane sample in the saved Dex-Net
+depth run. The white rectangles show the decoded grasp bounding boxes.
+
+<p align="center">
+  <img src="docs/assets/airplane_prediction_boxes.png" width="300" alt="Predicted grasp bounding boxes on the first airplane sample">
+</p>
+
+| Quality | Cosine | Sine | Skeleton |
+| --- | --- | --- | --- |
+| <img src="docs/assets/airplane_quality_heatmap.png" width="210" alt="Airplane grasp-quality heatmap"> | <img src="docs/assets/airplane_cosine_heatmap.png" width="210" alt="Airplane grasp-angle cosine heatmap"> | <img src="docs/assets/airplane_sine_heatmap.png" width="210" alt="Airplane grasp-angle sine heatmap"> | <img src="docs/assets/airplane_skeleton_heatmap.png" width="210" alt="Airplane skeleton heatmap"> |
+
 ## Citation
 
 If you find this work useful in your research, please cite our paper:
